@@ -1,11 +1,8 @@
-## Specify phone tech before including full_phone
-$(call inherit-product, vendor/liquid/config/cdma.mk)
-
 # Release name
 PRODUCT_RELEASE_NAME := Fascinate
 
 # Inherit some common Liquid stuff.
-$(call inherit-product, vendor/liquid/config/common_full_phone.mk)
+$(call inherit-product, vendor/liquid/config/common_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/fascinatemtd/full_fascinatemtd.mk)
