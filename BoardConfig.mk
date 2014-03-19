@@ -39,6 +39,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/fascinatemtd/bluet
 
 # Kernel Config
 TARGET_KERNEL_CONFIG := cyanogenmod_fascinatemtd_defconfig
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := LK
 
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 1665130496
 
