@@ -12,12 +12,6 @@
     "revision": "cm-11.0"
   },
   {
-    "remote": "cm",
-    "repository": "android_device_generic_goldfish",
-    "target_path": "device/generic/goldfish"
-    "revision": "cm-11.0"
-  },
-  {
     "remote": "tm",
     "repository": "proprietary_vendor_samsung",
     "target_path": "vendor/samsung"
